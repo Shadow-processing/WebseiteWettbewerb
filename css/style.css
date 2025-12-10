@@ -1,0 +1,57 @@
+body {
+    background-image: linear-gradient(#ffffff, #1f515a);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    font-family: Chicago, Arial;
+    font-size: 16px;
+}
+
+a {
+    color: #36434F;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+#header {
+
+    color: #000;
+    text-align: center;
+
+}
+
+#nav {
+    text-align: center;
+
+}
+
+#nav button {
+    background-color: #F8C8DC;
+    color: #36434F;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: medium outset white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
+
+#container {
+    background-color: #68c1cd;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px 5px 20px;
+
+
+}
