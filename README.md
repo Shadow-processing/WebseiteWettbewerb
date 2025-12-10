@@ -1,6 +1,9 @@
-## This Website is for a school Project
-
+## Self written Website Nr.4
 ##### See [Website](https://v2-shadow.github.io/WebseiteWettbewerb/) on GitHub
 
-## there is and will not be any kind of AI involved in this project, even if allowed from the schools side
+I have not and will not use AI in this project
+
+
+## License and contact
 License: GPL-3.0+
+Email: [v2-shadow@gmx.net] (v2-shadow@gmx.net)
