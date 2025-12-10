@@ -1,5 +1,4 @@
 ## This Website is for a school Project
-## and going to be part of a contest
 
 ##### See [Website](https://v2-shadow.github.io/WebseiteWettbewerb/) on GitHub
 
