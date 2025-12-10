@@ -3,7 +3,6 @@
 
 I have not and will not use AI in this project
 
-
 ## License and contact
-License: GPL-3.0+
-Email: [v2-shadow@gmx.net] (v2-shadow@gmx.net)
+# License: GPL-3.0+
+# Email: [v2-shadow@gmx.net] (v2-shadow@gmx.net)
