@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 :root {
-    --white: #fff;
+    --white: #ffffffaf;
     --black: #323135;
     --crystal: #a8dadd;
     --columbia-blue: #cee9e4;
     --midnight-green: #01565b;
-    --yellow: #e5f33d;
-    --timeline-gradient: rgba(206, 233, 228, 1) 0%, rgba(206, 233, 228, 1) 50%,
-        rgba(206, 233, 228, 0) 100%;
+
+    --timeline-gradient: rgba(255, 255, 255, 255) 0%, rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0) 100%;
 }
 
 *,
@@ -75,52 +75,7 @@ body {
     padding: 0 10px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 320px auto;
     grid-gap: 20px;
-}
-
-.timeline::before,
-.timeline::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 30px;
-    width: 100px;
-    z-index: 2;
-}
-
-.timeline::after {
-    right: 0;
-    background: linear-gradient(270deg, var(--timeline-gradient));
-}
-
-.timeline::before {
-    left: 340px;
-    background: linear-gradient(90deg, var(--timeline-gradient));
-}
-
-.timeline .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px 40px;
-    color: var(--white);
-    background: var(--midnight-green);
-    white-space: normal;
-    border-radius: 10px;
-}
-
-.timeline .info img {
-    margin-bottom: 20px;
-}
-
-.timeline .info p {
-    margin-top: 10px;
-    color: var(--crystal);
-}
-
-.timeline .info a {
-    text-decoration: none;
 }
 
 .timeline ol::-webkit-scrollbar {
@@ -137,7 +92,7 @@ body {
 }
 
 .timeline ol::-webkit-scrollbar-track {
-    background: var(--yellow);
+    background: var(--white);
 }
 
 .timeline ol {
@@ -146,7 +101,7 @@ body {
     transition: all 1s;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
-    scrollbar-color: var(--yellow) var(--midnight-green);
+    scrollbar-color: var(--white) var(--midnight-green);
 }
 
 .timeline ol li {
