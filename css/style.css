@@ -1,7 +1,7 @@
-/*  */
-
-
-
+/* This is the css file */
+/* Copyright 2026 */
+/* made by v2-shadow */
+/* https://github.com/V2-Shadow/ */
 body {
     background-image: linear-gradient(#ffffff, #1f515a);
     background-repeat: repeat;
@@ -22,36 +22,28 @@ a:hover {
 }
 
 #header {
-    /* sets the text color of the header div */
     color: #000;
-    /* aligns the text relative to the center */
     text-align: center;
 }
 
 #nav {
-    /* aligns the text relative to the center */
     text-align: center;
 }
 
 #nav button {
-    /*Colors the background*/
     background-color: #1f515a;
-    /* sets the text color */
     color: #ffffff;
-    /* adds padding, to make buttons look more uniform */
     padding: 12px 25px;
-    /* aligns the text to be centerd relative to the button */
     text-align: center;
-    /* ? */
+
     text-decoration: none;
-    /* makes the buttons be in a line */
+
     display: inline-block;
-    /*sets the font size*/
     font-size: 16px;
-    /* changes the Cursor state from normal to pointer */
     cursor: pointer;
-    /* makes the text appear wider*/
     font-weight: bold;
+
+    border-radius: 23px;
 
 }
 
