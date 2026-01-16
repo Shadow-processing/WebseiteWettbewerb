@@ -1,0 +1,3 @@
+took code from following sites and sources and modified it to fit our needs:
+
+https://codepen.io/tutsplus/pen/GRYEwXX?anon=true&view=pen
